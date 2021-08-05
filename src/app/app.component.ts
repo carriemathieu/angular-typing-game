@@ -7,6 +7,7 @@ import { lorem } from 'faker';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  // generates random sentence from faker package
   randomText = lorem.sentence();
   enteredText = '';
 
